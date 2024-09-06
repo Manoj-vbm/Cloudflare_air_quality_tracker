@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#cities {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.city {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.city h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.city p {
+    margin: 5px 0;
+    font-size: 14px;
+}
