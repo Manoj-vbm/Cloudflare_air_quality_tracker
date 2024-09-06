@@ -1,5 +1,5 @@
 // Add your OpenWeatherMap API Key here
-const apiKey = '0b6c9d94cac7b67f523ac2005ae385e7';
+const apiKey = '';
 
 // Cities to check (you can change this to the 5 cities you prefer)
 const cities = [
