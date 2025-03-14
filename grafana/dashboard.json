@@ -1,0 +1,103 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Air Quality Analytics",
+    "tags": [],
+    "timezone": "browser",
+    "schemaVersion": 16,
+    "version": 0,
+    "refresh": "5s",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Air Quality Index",
+        "gridPos": {
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 8
+        },
+        "targets": [
+          {
+            "target": "air_quality_index"
+          }
+        ]
+      },
+      {
+        "type": "graph",
+        "title": "CO Levels",
+        "gridPos": {
+          "x": 12,
+          "y": 0,
+          "w": 12,
+          "h": 8
+        },
+        "targets": [
+          {
+            "target": "co_levels"
+          }
+        ]
+      },
+      {
+        "type": "graph",
+        "title": "NO2 Levels",
+        "gridPos": {
+          "x": 0,
+          "y": 8,
+          "w": 12,
+          "h": 8
+        },
+        "targets": [
+          {
+            "target": "no2_levels"
+          }
+        ]
+      },
+      {
+        "type": "graph",
+        "title": "O3 Levels",
+        "gridPos": {
+          "x": 12,
+          "y": 8,
+          "w": 12,
+          "h": 8
+        },
+        "targets": [
+          {
+            "target": "o3_levels"
+          }
+        ]
+      },
+      {
+        "type": "graph",
+        "title": "PM2.5 Levels",
+        "gridPos": {
+          "x": 0,
+          "y": 16,
+          "w": 12,
+          "h": 8
+        },
+        "targets": [
+          {
+            "target": "pm2_5_levels"
+          }
+        ]
+      },
+      {
+        "type": "graph",
+        "title": "PM10 Levels",
+        "gridPos": {
+          "x": 12,
+          "y": 16,
+          "w": 12,
+          "h": 8
+        },
+        "targets": [
+          {
+            "target": "pm10_levels"
+          }
+        ]
+      }
+    ]
+  }
+}
